@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <title>Survey</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="container">
+    <h2 style="margin-bottom: 10px;">Survey Form</h2>
+    <p id="instruction" style="text-align: center;font-family: Georgia, 'Times New Roman', Times, serif; color: rgb(249, 179, 221); font-size: 16px; margin-top: 0px;">Fill out the form carefully.</p>
+    <div class="container-2">
+        <form id="surveyForm" onsubmit="myFunction()" >
+<p id="nm" style="margin-top: 2px;">Name:</p>
+<input type="text" id="fn" name="fn" ><br>
+
+<p id="nm" style="margin-top: 2px;">Age:</p>
+<input type="number" id="age" name="age" ><br>
+<p style="margin-top: 2px;">Education:</p>
+
+<input type="radio" id="Primary" name="Education" value="Primary"style="cursor: pointer; ">
+<label for="Primary" >Primary</label><br>
+<input type="radio" id="Secondary" name="Education" value="Secondary" style="cursor: pointer;" >
+<label for="Secondary" >Secondary</label><br>
+<input type="radio" id="Tertiary" name="Education" value="Tertiary"style="cursor: pointer;" >
+<label for="Tertiary" >Tertiary</label>
+<p id="msg">Comments (Optional):</p>
+<textarea name="message" rows="3" cols="38" style="max-width: 300px;">
+    </textarea>
+    <button id="btn" type="submit">Submit</button>
+</form>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css);
+.container-2{
+    border: 1px solid black;
+    padding: 18px;
+    background-color: rgb(255, 214, 228);
+  font-size: 16px;
+  font-style: bold;
+    font-family: 'Georgia';
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+ border: none;
+ color: #6705a0;
+
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+text-align: center;
+   background: linear-gradient(to right, #95019f, #f168a1,pink); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-weight: 700;
+}
+
+body{
+    background: #654ea3;  
+    background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    width: 300px;
+    border: none;
+    background-color: #6705a0;
+    padding: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button:hover{
+    background-color: #a83fe4;
+    cursor: pointer;
+}
+#fn, #age{
+        width:290px; 
+        padding-top: 5px;  
+        padding-bottom: 5px;
+        display: block;
+        margin-top: 1px;
+        margin-bottom: 0;
+
+   }
+   textarea{
+    padding-top: 5px;  
+    padding-bottom: 10px;
+    margin-top: 5px; /* Space above input */
+    margin-bottom: 20px;
+   }
+   
